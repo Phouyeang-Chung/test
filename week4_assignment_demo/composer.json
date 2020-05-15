@@ -1,0 +1,17 @@
+{
+    "name": "paragon/week4demo",
+    "authors": [
+        {
+            "name": "Nguonchhay",
+            "email": "nguonchhay.touch@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/Classes/func.php"
+        ],
+        "psr-4": {
+            "Paragon\\": "src/Classes/"
+        }
+    }
+}
